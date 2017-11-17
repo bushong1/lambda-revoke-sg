@@ -4,14 +4,11 @@
   "description": "",
   "main": "revoke-all-sg-rules.js",
   "dependencies": {
-    "aws-sdk": "^2.85.0",
-    "bluebird": "^3.5.0",
-    "lodash": "^4.17.4"
+    "aws-sdk": "^2.85.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "echo 'Packaging for lambda upload' && zip -r lambda-revoke-sg.zip node_modules index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
